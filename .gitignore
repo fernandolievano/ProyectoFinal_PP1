@@ -1,0 +1,28 @@
+# Entorno virtual
+env/
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Notebooks temporales
+.ipynb_checkpoints/
+
+# Datos (ignorar todos menos el dataset comprimido)
+*.csv
+*.parquet
+*.feather
+*.xlsx
+*.json
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+*.Identifier
+
+# IDEs
+.idea/
+.vscode/
